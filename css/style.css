@@ -4,15 +4,68 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
 .highlight {
     color: orange;
 }
 .half_width{
-    width: 40%;
     float: left;
+    width: 40%;
     margin-left: 5%;
     padding-left: 2%;
 }
 .half_width img{
     width: 100%;
+}
+.top_banner{
+    background: url(../images/image\ \(3\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 8px;
+    color: white;
+}
+.dream_area{
+    background: url(../images/image\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single{
+   box-shadow: 10px 10px 40px gray; 
+   border-radius: 5px;
+   height: 80%;
+   background: white;
+}
+.experience{
+    background: url(../images/image\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, purple);
+    border-image-slice: 1;
+}
+#baby_web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12;
 }
